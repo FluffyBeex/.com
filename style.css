@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff5e6; /* Soft cream background */
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff99aa; /* Pink header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 80px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.menu-icon, .icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-icons .icon {
+    margin-left: 15px;
+}
+
+/* Hero Section */
+.hero-image img {
+    width: 100%;
+    display: block;
+}
+
+/* Content Area */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content {
+    padding: 40px 20px;
+}
+
+.headline {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.description {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #666;
+    padding: 0 10px;
+}
+
+/* Button */
+.scoop-btn {
+    background-color: #ff8fa3;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.scoop-btn:hover {
+    transform: scale(1.05);
+    background-color: #ff7a91;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .headline {
+        font-size: 1.3rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+}
